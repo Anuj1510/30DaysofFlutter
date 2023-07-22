@@ -6,6 +6,7 @@ class HomePage extends StatelessWidget {
     String name = "Anuj";
     num temp1 = 30;
     num temp2 = 30.5;
+    // num dono int and decimal value dono accept kr sakta hai
     return Scaffold(
       appBar: AppBar(
         title: Text("Anuj Shahi"),
@@ -13,7 +14,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Container(
           child: Text(
-              "You're going to surpass everyone $name,\njust belive in yourself $temp1"),
+              "You're going to surpass everyone $name,\njust belive in yourself"),
         ),
       ),
       drawer: Drawer(),
